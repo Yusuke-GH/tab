@@ -1,0 +1,39 @@
+#tabMenu ul {
+  width: 600px;
+  background-color: #fff;
+}
+
+#tabMenu li {
+  float: left;
+  list-style: none;
+}
+
+#tabMenu li a {
+  display: block;
+  width: 198px;
+  height: 48px;
+  line-height: 50px;
+  text-align: center;
+  border: #ccc 1px solid;
+  text-decoration: none;
+}
+
+#tabBox1, #tabBox2, #tabBox3 {
+  width: 598px;
+  height: 300px;
+  border: #ccc 1px solid;
+}
+
+#tabBox1 {
+  background: #FCF;
+}
+
+#tabBox2 {
+  background: #FFC;
+  display: none;
+}
+
+#tabBox3 {
+  background: #ccc;
+  display: none;
+}

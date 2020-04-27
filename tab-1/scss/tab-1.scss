@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+ul {
+  list-style: none;
+}
+
+ul.tabbox li {
+  float: left;
+  width: 25%;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #c0c0c0;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+ul.textbox {
+  width: 100%;
+  border: 1px solid #c0c0c0;
+  box-sizing: border-box;
+  height: 200px;
+  padding: 10px;
+}
+
+ul.textbox li {
+  display: none;
+}
+
+ul.textbox li.hide {
+  display: block;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.selected {
+  background-color: #000;
+  color: #fff;
+}
